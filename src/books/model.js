@@ -16,6 +16,9 @@ const Book = connection.define("Book", {
     },
     genre: {
         type: DataTypes.STRING
+    },
+    AuthorId: {
+        type: DataTypes.INTEGER 
     }
 })
 
